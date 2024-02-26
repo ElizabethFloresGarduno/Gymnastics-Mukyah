@@ -1,0 +1,130 @@
+
+
+/*  Paleta de colores a utilizar
+purple --> #9f33ff
+green --> #00fbff
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    background-color: #9f33ff;
+    font-family: 'Merriweather', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.backstage {
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__logo {
+    width: 150px;
+}
+
+
+.header__title {
+    font-size: 3em; 
+
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 0 30px 0;
+    background-color: #ffffff;
+    
+}
+
+.header__nav > a {
+    text-decoration: none;
+    color: #9f33ff;
+}
+
+.header__nav > a:hover {
+    color: #00fbff;
+    text-decoration: underline;
+}
+
+.main__section__coach {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.main__intro__img {
+    box-sizing: border-box;
+    height: 500px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px 0 0 0;
+    color: #00fbff;
+    font-weight: 600;
+}
+
+.main__section__coach div {
+    padding: 20px;
+}
+
+.main__section__groups > div {
+    padding: 20px 20px 20px 35px;
+}
+
+.groups__item {
+    color: #9f33ff;
+}
+
+.groups__item:hover {
+    color: #00fbff;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 0 0 0;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.footer__section {
+    padding: 25px;
+}
+
+.footer__section > h3 {
+    color: #9f33ff;
+}
+
+.footer__section > iframe {
+    width: fit-content;
+}
+
+.redes__sociales {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.redes__sociales > img {
+    width: fit-content;
+}
+
+.telefonos__contacto > p {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
